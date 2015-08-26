@@ -1,0 +1,271 @@
+[class^="fc-icon-"],
+.cFavorite,
+.cFavoriteSelected,
+.icon-fav--readonly  {
+  font-family: "fotocasa-iconset-web";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: (16/14) * 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="fc-icon-"]:before {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fc-icon-text:before {
+  content: "T";
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.fc-icon-amazon:before {
+  content: "\E001"
+}
+.fc-icon-android:before {
+  content: "\E002"
+}
+.fc-icon-apps:before {
+  content: "\E003"
+}
+.fc-icon-arrow-down:before {
+  content: "\E004"
+}
+.fc-icon-arrow-up:before {
+  content: "\E005"
+}
+.fc-icon-baths:before {
+  content: "\E006"
+}
+.fc-icon-bell:before {
+  content: "\E007"
+}
+.fc-icon-calendar:before {
+  content: "\E008"
+}
+.fc-icon-camera:before {
+  content: "\E009"
+}
+.fc-icon-caret-down:before {
+  content: "\E00A"
+}
+.fc-icon-caret-up:before {
+  content: "\E00B"
+}
+.fc-icon-cart:before {
+  content: "\E00C"
+}
+.fc-icon-checkmark:before {
+  content: "\E00D"
+}
+.fc-icon-close:before {
+  content: "\E00E"
+}
+.fc-icon-download:before {
+  content: "\E00F"
+}
+.fc-icon-envelop:before {
+  content: "\E010"
+}
+.fc-icon-external:before {
+  content: "\E011"
+}
+.fc-icon-facebook:before {
+  content: "\E012"
+}
+.fc-icon-fav-off:before {
+  content: "\E013"
+}
+.fc-icon-fav-on:before {
+  content: "\E014"
+}
+.fc-icon-feed:before {
+  content: "\E015"
+}
+.fc-icon-filter:before {
+  content: "\E016"
+}
+.fc-icon-flag:before {
+  content: "\E017"
+}
+.fc-icon-floor:before {
+  content: "\E018"
+}
+.fc-icon-googleplus:before {
+  content: "\E019"
+}
+.fc-icon-home:before {
+  content: "\E01A"
+}
+.fc-icon-info:before {
+  content: "\E01B"
+}
+.fc-icon-ipad:before {
+  content: "\E01C"
+}
+.fc-icon-iphone:before {
+  content: "\E01D"
+}
+.fc-icon-list:before {
+  content: "\E01E"
+}
+.fc-icon-location:before {
+  content: "\E01F"
+}
+.fc-icon-loop:before {
+  content: "\E020"
+}
+.fc-icon-menu:before {
+  content: "\E021"
+}
+.fc-icon-minus:before {
+  content: "\E022"
+}
+.fc-icon-next:before {
+  content: "\E023"
+}
+.fc-icon-options:before {
+  content: "\E024"
+}
+.fc-icon-order:before {
+  content: "\E025"
+}
+.fc-icon-pencil:before {
+  content: "\E026"
+}
+.fc-icon-pencil_2:before {
+  content: "\E027"
+}
+.fc-icon-phone:before {
+  content: "\E028"
+}
+.fc-icon-photos:before {
+  content: "\E029"
+}
+.fc-icon-pinterest:before {
+  content: "\E02A"
+}
+.fc-icon-play:before {
+  content: "\E02B"
+}
+.fc-icon-plus:before {
+  content: "\E02C"
+}
+.fc-icon-prev:before {
+  content: "\E02D"
+}
+.fc-icon-pricetag:before {
+  content: "\E02E"
+}
+.fc-icon-print:before {
+  content: "\E02F"
+}
+.fc-icon-reload:before {
+  content: "\E030"
+}
+.fc-icon-remove:before {
+  content: "\E031"
+}
+.fc-icon-return:before {
+  content: "\E032"
+}
+.fc-icon-rooms:before {
+  content: "\E033"
+}
+.fc-icon-search:before {
+  content: "\E034"
+}
+.fc-icon-settings:before {
+  content: "\E035"
+}
+.fc-icon-share:before {
+  content: "\E036"
+}
+.fc-icon-sing-in:before {
+  content: "\E037"
+}
+.fc-icon-sing-out:before {
+  content: "\E038"
+}
+.fc-icon-star-off:before {
+  content: "\E039"
+}
+.fc-icon-star-on:before {
+  content: "\E03A"
+}
+.fc-icon-surface:before {
+  content: "\E03B"
+}
+.fc-icon-twitter:before {
+  content: "\E03C"
+}
+.fc-icon-user-on:before {
+  content: "\E03D"
+}
+.fc-icon-user:before {
+  content: "\E03E"
+}
+.fc-icon-warning:before {
+  content: "\E03F"
+}
+.fc-icon-webapp:before {
+  content: "\E040"
+}
+.fc-icon-windows:before {
+  content: "\E041"
+}
+.fc-icon-world:before {
+  content: "\E042"
+}
+.fc-icon-youtube:before {
+  content: "\E043"
+}
+.fc-icon-zoom-in:before {
+  content: "\E044"
+}
+
+
+.fc-icon-plus:before {
+    font-size: 16px * 3/4;
+}
+
+// El content se corresponde al de fc-icon-close
+.fc-icon-delete:before {
+  content: "\E00D"
+}
+
+.fc-icon-delete {
+  color: #e00;
+}
+
+// El content se corresponde al de fc-icon-fav-off
+.cFavorite:before,
+.icon-fav--readonly:before {
+  content: "\E013"
+}
+
+// El content se corresponde al de fc-icon-fav-on
+.fc-icon-love:before,
+.cFavoriteSelected:before {
+  content: "\E014"
+}
+
+.cFavorite {
+  color: #999;
+}
+
+.cFavorite:hover,
+.cFavoriteSelected {
+  color: #f60;
+}
+
+.cFavorite,
+.cFavoriteSelected {
+  margin-right: 4px;
+}
