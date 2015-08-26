@@ -1,0 +1,70 @@
+[class^="fc-icon-"],
+.cFavorite,
+.cFavoriteSelected,
+.icon-fav--readonly  {
+  font-family: "<%= fontName %>";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: (16/14) * 1em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  speak: none;
+  text-transform: none;
+  line-height: 1;
+}
+
+[class^="fc-icon-"]:before {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.fc-icon-text:before {
+  content: "T";
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+<% _.each(glyphs, function(glyph) { %>.<%= className %>-<%= glyph.name %>:before {
+  content: "\<%= glyph.codepoint.toString(16).toUpperCase() %>"
+}
+<% }); %>
+
+.fc-icon-plus:before {
+    font-size: 16px * 3/4;
+}
+
+// El content se corresponde al de fc-icon-close
+.fc-icon-delete:before {
+  content: "\E00D"
+}
+
+.fc-icon-delete {
+  color: #e00;
+}
+
+// El content se corresponde al de fc-icon-fav-off
+.cFavorite:before,
+.icon-fav--readonly:before {
+  content: "\E013"
+}
+
+// El content se corresponde al de fc-icon-fav-on
+.fc-icon-love:before,
+.cFavoriteSelected:before {
+  content: "\E014"
+}
+
+.cFavorite {
+  color: #999;
+}
+
+.cFavorite:hover,
+.cFavoriteSelected {
+  color: #f60;
+}
+
+.cFavorite,
+.cFavoriteSelected {
+  margin-right: 4px;
+}
